@@ -134,7 +134,7 @@ cython_debug/
 #.idea/
 
 # test data
-*.csv
+#*.csv
 
 #sample images
 /vizCatalog
