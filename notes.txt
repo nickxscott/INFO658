@@ -2,3 +2,8 @@ INFO658 - Sp26
 -room number?
 -zoom link? 
 -required office hours?
+
+FA 2026
+- Include AI policies in syllabus and first day lecture
+- late assignment policy in syllabus and first day lecture
+- add points for missed presentations
