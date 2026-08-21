@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> <!--Bootstrap Icons-->
     <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet"><!--GridJS-->
     <style>
-        body { color: #212529; }
+        body { color: #212529; font-family: Arial}
         .syllabus { max-width: 900px; }
-        h1 { font-size: 2.1rem; font-weight: 700; color: #1F497D; text-align: center; margin: 1.25rem 0 1.5rem; }
-        h2 { font-size: 1.6rem; font-weight: 700; color: #1F497D; margin-top: 2rem; padding-bottom: .3rem; border-bottom: 2px solid #1F497D; }
-        h3 { font-size: 1.2rem; font-weight: 600; color: #2E5A94; margin-top: 1.4rem; }
+        h1 { font-size: 2.1rem; font-weight: 700;  text-align: center; margin: 1.25rem 0 1.5rem; }
+        h2 { font-size: 1.6rem; font-weight: 700;  margin-top: 2rem; padding-bottom: .3rem; border-bottom: 2px solid #1F497D; }
+        h3 { font-size: 1.2rem; font-weight: 600;  margin-top: 1.4rem; }
         p, li { line-height: 1.55; }
         a { color: #0d6efd; }
         table { font-size: .95rem; }
@@ -28,7 +28,7 @@
     <div class="container syllabus py-3">
         <header class="row align-items-center border-bottom pb-3 mb-2">
             <div class="col-8 col-md-4 col-lg-3">
-                <img class="img-fluid" src="https://www.pratt.edu/wp-content/themes/pratt/static/img/og.png" alt="Pratt Institute Logo" style="height: 100px">
+                <img class="img-fluid" src="https://www.pratt.edu/wp-content/themes/pratt/static/img/og.png" alt="Pratt Institute Logo" style="height: 90px">
             </div>
             <div class="col-md-4 col-lg-4 address ms-md-2 mt-2 mt-md-0">
                 <p class="mb-0">School of Information<br>
@@ -69,7 +69,7 @@
             <p><em><u>Textbook:</u></em></p>
             <p>Wilke, C. O. (2019). <em>Fundamentals of data visualization: A primer on making informative and compelling figures</em>. O'Reilly Media, Inc. </p>
             <ul>
-                <li>Digital copy: <a href="https://clauswilke.com/dataviz/directory-of-visualizations.html">https://clauswilke.com/dataviz/directory-of-visualizations.html</a></li>
+                <li>Digital copy: <a href="https://clauswilke.com/dataviz/directory-of-visualizations.html" target="_parent">https://clauswilke.com/dataviz/directory-of-visualizations.html</a></li>
             </ul>
             <p><em><u>Software:</u></em></p>
             <p>Software is licensed by Pratt, or offered with free student versions. Please also see Launchpad (one.pratt.edu) for virtual desktop access to a wide range of licensed software.</p>
@@ -101,29 +101,107 @@
             <h3>Assessment &amp; Grading</h3>
             <p>Your knowledge and skills will be assessed based on two lab reports, a final project, and class participation.</p>
             <table class="table table-bordered align-top">
-            <tr class="table-light"><th><strong>Assessment</strong></th><th><strong>Deadline</strong></th><th><strong>Weight</strong></th></tr>
-            <tr><td>Participation</td><td>Weekly</td><td>30%</td></tr>
-            <tr><td>Lab report 1</td><td>September 22nd </td><td>15%</td></tr>
-            <tr><td>Lab report 2</td><td>October 27th </td><td>15%</td></tr>
-            <tr><td>Final Project Presentation</td><td>December 8th </td><td>8%</td></tr>
-            <tr><td>Final Project</td><td>December 11th </td><td>32%</td></tr>
-            <tr><td colspan="2"><strong>Total</strong></td><td><strong>100%</strong></td></tr>
+                <tr class="table-light">
+                    <th><strong>Assessment</strong></th>
+                    <th><strong>Deadline</strong></th>
+                    <th><strong>Weight</strong></th></tr>
+                <tr>
+                    <td>Participation</td>
+                    <td>Weekly</td>
+                    <td>30%</td>
+                </tr>
+                <tr>
+                    <td>Lab report 1</td>
+                    <td>September 27th</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>Lab report 2</td>
+                    <td>November 1st</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>Final Project Presentation</td>
+                    <td>December 8th </td>
+                    <td>5%</td>
+                </tr>
+                <tr>
+                    <td>Final Project</td>
+                    <td>December 11th </td>
+                    <td>35%</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Total</strong></td>
+                    <td><strong>100%</strong>
+                    </td>
+                </tr>
             </table>
             <p>Pratt Institute Grade System</p>
             <table class="table table-bordered align-top">
-            <tr class="table-light"><th>Grade</th><th>Evaluation</th><th>Quality Points per Credit</th></tr>
-            <tr><td>A</td><td>Excellent</td><td>4.0</td></tr>
-            <tr><td>A-</td><td>Excellent</td><td>3.7</td></tr>
-            <tr><td>B+</td><td>Very Good</td><td>3.3</td></tr>
-            <tr><td>B</td><td>Good</td><td>3.0</td></tr>
-            <tr><td>B-</td><td>Good</td><td>2.7</td></tr>
-            <tr><td>C+</td><td>Above Average</td><td>2.3</td></tr>
-            <tr><td>C</td><td>Average</td><td>2.0</td></tr>
-            <tr><td>C-</td><td>Below Average (UG only)</td><td>1.7</td></tr>
-            <tr><td>D+</td><td>Less than Acceptable (UG only)</td><td>1.3</td></tr>
-            <tr><td>D</td><td>Less than Acceptable (UG only)</td><td>1.0</td></tr>
-            <tr><td>F</td><td>Failure</td><td>0.0</td></tr>
-            <tr><td>WF</td><td>Failure Due to Lack of Attendance</td><td>0.0</td></tr>
+                <tr class="table-light">
+                    <th>Grade</th>
+                    <th>Evaluation</th>
+                    <th>Quality Points per Credit</th>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>Excellent</td>
+                    <td>4.0</td>
+                </tr>
+                <tr>
+                    <td>A-</td>
+                    <td>Excellent</td>
+                    <td>3.7</td>
+                </tr>
+                <tr>
+                    <td>B+</td>
+                    <td>Very Good</td>
+                    <td>3.3</td></tr>
+                <tr>
+                    <td>B</td>
+                    <td>Good</td>
+                    <td>3.0</td>
+                </tr>
+                <tr>
+                    <td>B-</td>
+                    <td>Good</td>
+                    <td>2.7</td>
+                </tr>
+                <tr>
+                    <td>C+</td>
+                    <td>Above Average</td>
+                    <td>2.3</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Average</td>
+                    <td>2.0</td>
+                </tr>
+                <tr>
+                    <td>C-</td>
+                    <td>Below Average (UG only)</td>
+                    <td>1.7</td>
+                </tr>
+                <tr>
+                    <td>D+</td>
+                    <td>Less than Acceptable (UG only)</td>
+                    <td>1.3</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>Less than Acceptable (UG only)</td>
+                    <td>1.0</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td>Failure</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>WF</td>
+                    <td>Failure Due to Lack of Attendance</td>
+                    <td>0.0</td>
+                </tr>
             </table>
             <p><strong>Portfolio</strong></p>
             <p>Work completed for this course may be included in your portfolio. For more information on each program’s portfolio requirements, please visit the program’s respective webpage:</p>
@@ -134,75 +212,144 @@
             <p>Also, you are encouraged to meet with your advisor about including projects in your portfolio.</p>
             <h2>Course Calendar/Schedule</h2>
             <table class="table table-bordered align-top">
-            <tr class="table-light"><th style="min-width: 100px;"><strong>Date</strong></th><th><strong>Topic</strong></th><th><strong>Reading</strong></th></tr>
-            <tr><th colspan="3" class="table-secondary text-center"><strong>Part I - Introduction</strong></th></tr>
-            <tr><td>Week 1<br>25-Aug</td><td>Lecture: Introduction<br>Workshop: Intro to Excel</td><td>Wilke; Ch 1, 2</td></tr>
-            <tr><td>Week 2<br>1-Sept</td><td>Lecture: Principles of data visualization, data types, chart types; Introduction to NYC Open Data and Social Explorer<br>Workshop: Social Explorer</td><td>Wilke; Ch 3, 4, and 5</td></tr>
-            <tr><th colspan="3" class="table-secondary text-center"><strong>Part II - Practice</strong></th></tr>
-            <tr><td>Week 3<br>8-Sept</td><td>Lecture: Visualizing amounts and distributions<br>Workshop: Datawrapper pt. 1</td><td>Wilke; Ch 6 and 7<br><a href="https://policyviz.com/2025/07/23/stacked-bar-chart-difference-alphar/">What Makes the Difference in a Stacked Bar Chart?</a><br><a href="https://policyviz.com/2025/10/09/when-time-gets-flipped-rethinking-bar-chart-order/">Rethinking Bar Chart Order</a></td></tr>
-            <tr><td>Week 4<br>15-Sept</td><td>Lecture: Visualizing proportions and Relationships<br>Workshop: Datawrapper pt 2</td><td>Wilke; Ch 10, 11, and 12<br><a href="https://policyviz.com/2018/01/11/fk-it-lets-use-pie-charts/">F-it, Let’s Use Pie Charts</a></td></tr>
-            <tr><td>Week 5<br>22-Sept</td><td><strong>Assignment 1 Due </strong><br>Workshop: Tech check – Google Colab</td><td></td></tr>
-            <tr><td>Week 6<br>29-Sept</td><td>Lecture: Intro to Python Intro<br>Workshop: Intro to Google Collab, and programming in Python</td><td><a href="https://automatetheboringstuff.com/">Automate the Boring Stuff</a></td></tr>
-            <tr><td>Week 7<br>6-Oct</td><td>Lecture: Timeseries and trends <br>Workshop: Working with data programmatically, data cleaning, feature engineering</td><td>Wilke; Ch 13 and 14<br><a href="https://policyviz.com/2020/09/23/on-positioning-the-vertical-axis/">On…Positioning the Vertical Axis</a></td></tr>
-            <tr><td>Week 8<br>13-Oct</td><td colspan="2">Indigenous Peoples’ Day - No class</td></tr>
-            <tr><td>Week 9<br>20-Oct</td><td>Lecture: Data visualization for statistics and data science.<br>Workshop: Seaborn, MatplotLib, Scipy</td><td>Wilke; Ch 16 </td></tr>
-            <tr><td>Week 10<br>27-Oct</td><td><strong>Assignment 2 Due</strong><br>Workshop: Tables</td><td>Wilke; Ch 22<br><a href="https://policyviz.com/2021/03/02/three-things-you-can-do-to-make-your-data-tables-more-visual/">Three Things You Can do to Make Your Data Tables More Visual</a></td></tr>
-            <tr><td>Week 11<br>3-Nov</td><td>Lecture: Exploratory data visualization (interactive charts)<br>Workshop: Plotly; Present ideas for final project </td><td></td></tr>
-            <tr><td>Week 12<br>10-Nov</td><td>Lecture: Geospatial data<br>Workshop: Plotly, geopandas</td><td>Wilke; Ch 15<br><a href="https://www.nytransitmuseum.org/vignelli/">Towards a Better Way: The “Vignelli” Map at 50</a></td></tr>
-            <tr><td>Week 13<br>17-Nov</td><td>Lecture: Network data?<br>Workshop: Visualizing networks in Networkx (python) and Gephi; Final project data sources.</td><td></td></tr>
-            <tr><th colspan="3" class="table-secondary text-center"><strong>Part III – Special Topics and Final Projects</strong></th></tr>
-            <tr><td>Week 14<br>24-Nov</td><td><strong>Dallas guest lecture – AI at Amazon Web Services</strong><br>Workshop: Final project updates</td><td></td></tr>
-            <tr><td>Week 15<br>1-Dec</td><td><strong>Will guest lecture – p5.js</strong><br>Workshop: Final project prototype/user testing</td><td></td></tr>
-            <tr><td>Week 16<br>8-Dec</td><td><strong>Final Project Presentations</strong><br>Final product due Friday, December 11th </td><td></td></tr>
+                <tr class="table-light"><th style="min-width: 100px;"><strong>Date</strong></th><th><strong>Topic</strong></th><th><strong>Reading</strong></th></tr>
+                <tr>
+                    <th colspan="3" class="table-secondary text-center"><strong>Part I - Introduction</strong></th>
+                </tr>
+                <tr>
+                    <td>Week 1<br>25-Aug</td>
+                    <td>Lecture: Introduction<br>Workshop: Intro to Excel</td>
+                    <td>Wilke; Ch 1, 2</td>
+                </tr>
+                <tr>
+                    <td>Week 2<br>1-Sept</td>
+                    <td>Lecture: Principles of data visualization, data types, chart types; Introduction to NYC Open Data and Social Explorer<br>Workshop: Social Explorer</td>
+                    <td>Wilke; Ch 3, 4, and 5</td>
+                </tr>
+                <tr>
+                    <th colspan="3" class="table-secondary text-center"><strong>Part II - Practice</strong></th>
+                </tr>
+                <tr>
+                    <td>Week 3<br>8-Sept</td>
+                    <td>Lecture: Visualizing amounts and distributions<br>Workshop: Datawrapper pt. 1</td>
+                    <td>Wilke; Ch 6 and 7<br><a href="https://policyviz.com/2025/07/23/stacked-bar-chart-difference-alphar/" target="_blank">What Makes the Difference in a Stacked Bar Chart?</a><br><a href="https://policyviz.com/2025/10/09/when-time-gets-flipped-rethinking-bar-chart-order/" target="_blank">Rethinking Bar Chart Order</a></td>
+                </tr>
+                <tr>
+                    <td>Week 4<br>15-Sept</td>
+                    <td>Lecture: Visualizing proportions and Relationships<br>Workshop: Datawrapper pt 2</td>
+                    <td>Wilke; Ch 10, 11, and 12<br><a href="https://policyviz.com/2018/01/11/fk-it-lets-use-pie-charts/" target="_blank">F-it, Let’s Use Pie Charts</a></td>
+                </tr>
+                <tr>
+                    <td>Week 5<br>22-Sept</td>
+                    <td><strong>Assignment 1 Due </strong><br>Workshop: Tech check – Google Colab</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Week 6<br>29-Sept</td>
+                    <td>Lecture: Intro to Python Intro<br>Workshop: Intro to Google Collab, and programming in Python</td>
+                    <td><a href="https://automatetheboringstuff.com/" target="_blank">Automate the Boring Stuff</a></td>
+                </tr>
+                <tr>
+                    <td>Week 7<br>6-Oct</td>
+                    <td>Lecture: Timeseries and trends <br>Workshop: Working with data programmatically, data cleaning, feature engineering</td>
+                    <td>Wilke; Ch 13 and 14<br><a href="https://policyviz.com/2020/09/23/on-positioning-the-vertical-axis/" target="_blank">On…Positioning the Vertical Axis</a></td>
+                </tr>
+                <tr>
+                    <td>Week 8<br>13-Oct</td>
+                    <td colspan="2">Indigenous Peoples’ Day - No class</td>
+                </tr>
+                <tr>
+                    <td>Week 9<br>20-Oct</td>
+                    <td>Lecture: Data visualization for statistics and data science.<br>Workshop: Seaborn, MatplotLib, Scipy</td>
+                    <td>Wilke; Ch 16 </td>
+                </tr>
+                <tr>
+                    <td>Week 10<br>27-Oct</td>
+                    <td><strong>Assignment 2 Due</strong><br>Workshop: Tables</td>
+                    <td>Wilke; Ch 22<br><a href="https://policyviz.com/2021/03/02/three-things-you-can-do-to-make-your-data-tables-more-visual/" target="_blank">Three Things You Can do to Make Your Data Tables More Visual</a></td>
+                </tr>
+                <tr>
+                    <td>Week 11<br>3-Nov</td>
+                    <td>Lecture: Exploratory data visualization (interactive charts)<br>Workshop: Plotly; Present ideas for final project </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Week 12<br>10-Nov</td>
+                    <td>Lecture: Geospatial data<br>Workshop: Plotly, geopandas</td>
+                    <td>Wilke; Ch 15<br><a href="https://www.nytransitmuseum.org/vignelli/" target="_blank">Towards a Better Way: The “Vignelli” Map at 50</a></td>
+                </tr>
+                <tr>
+                    <td>Week 13<br>17-Nov</td>
+                    <td>Lecture: Network data?<br>Workshop: Visualizing networks in Networkx (python) and Gephi; Final project data sources.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="3" class="table-secondary text-center"><strong>Part III – Special Topics and Final Projects</strong></th>
+                </tr>
+                <tr>
+                    <td>Week 14<br>24-Nov</td>
+                    <td><strong>Guest Lecture - TBD</strong><br>Workshop: Final project updates  </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Week 15<br>1-Dec</td>
+                    <td><strong>Guest Lecture - TBD</strong><br>Workshop: Final project prototype/user testing</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Week 16<br>8-Dec</td>
+                    <td><strong>Final Project Presentations</strong><br>Final product due Friday, December 11th </td>
+                    <td></td>
+                </tr>
             </table>
             <h2>Policies</h2>
-            <p>The following abbreviated set of policies is especially relevant to this class. Full details on policies and procedures can be found on the Pratt <a href="https://www.pratt.edu/administrative-departments/student-affairs/community-standards-and-student-policies/">website</a> or in the Office of the Vice President for Student Affairs, Main Building, Lower Level.</p>
+            <p>The following abbreviated set of policies is especially relevant to this class. Full details on policies and procedures can be found on the Pratt <a href="https://www.pratt.edu/administrative-departments/student-affairs/community-standards-and-student-policies/" target="_blank">website</a> or in the Office of the Vice President for Student Affairs, Main Building, Lower Level.</p>
             <h3>Community Standards</h3>
-            <p>All Pratt students, faculty, and staff members are expected to value and uphold the <a href="https://www.pratt.edu/administrative-departments/student-affairs/community-standards-and-student-policies/">community standards</a> essential to the pursuit of academic excellence and social responsibility. These include expectations for social conduct, academic integrity, non-discrimination, and other policies described in the link above, and apply to all Pratt-sponsored activities, on or off campus.</p>
+            <p>All Pratt students, faculty, and staff members are expected to value and uphold the <a href="https://www.pratt.edu/administrative-departments/student-affairs/community-standards-and-student-policies/" target="_blank">community standards</a> essential to the pursuit of academic excellence and social responsibility. These include expectations for social conduct, academic integrity, non-discrimination, and other policies described in the link above, and apply to all Pratt-sponsored activities, on or off campus.</p>
             <h3>Academic Integrity</h3>
             <p>Academic integrity at Pratt means using your own and original ideas in creating academic work. It also means that if you use the ideas or influence of others in your work, you must acknowledge them.</p>
             <p>At Pratt,</p>
             <ul>
-            <li>We do our own work,</li>
-            <li>We are creative, and</li>
-            <li>We give credit where it is due.</li>
+                <li>We do our own work,</li>
+                <li>We are creative, and</li>
+                <li>We give credit where it is due.</li>
             </ul>
             <p>When students submit any work for academic credit, they make an implicit claim that the work is wholly their own, completed without the assistance of any unauthorized person. These works include, but are not limited to exams, quizzes, presentations, papers, projects, studio work, and other assignments and assessments. In addition, no student shall prevent another student from making their work. Students may study, collaborate, and work together on assignments at the discretion of the instructor.</p>
             <p>Examples of infractions include but are not limited to:</p>
             <ol>
-            <li>Plagiarism, defined as using the exact language or a close paraphrase of someone else’s ideas without citation.</li>
-            <li>Violations of fair use, including the unauthorized and uncited use of another’s artworks, images, designs, etc.</li>
-            <li>The supplying or receiving of completed work including papers, projects, outlines, artworks, designs, prototypes, models, or research for submission by any person other than the author.</li>
-            <li>The unauthorized submission of the same or essentially the same piece of work for credit in two different classes.</li>
-            <li>The unauthorized supplying or receiving of information about the form or content of an examination.</li>
-            <li>The supplying or receiving of partial or complete answers, or suggestions for answers; or the supplying or receiving of assistance in interpretation of questions on any examination from any source not explicitly authorized. (This includes copying or reading of another student’s work or consultation of notes or other sources during an examination.)</li>
-            <li>The use of generative artificial intelligence (AI) to produce or to improve work, whether visual or textual, except when called for by an assignment or instructor and acknowledged transparently as one tool among others in the creative process. (See also Pratt’s <a href="https://www.pratt.edu/resources/statement-on-artificial-intelligence">Statement on Artificial Intelligence</a>)</li>
+                <li>Plagiarism, defined as using the exact language or a close paraphrase of someone else’s ideas without citation.</li>
+                <li>Violations of fair use, including the unauthorized and uncited use of another’s artworks, images, designs, etc.</li>
+                <li>The supplying or receiving of completed work including papers, projects, outlines, artworks, designs, prototypes, models, or research for submission by any person other than the author.</li>
+                <li>The unauthorized submission of the same or essentially the same piece of work for credit in two different classes.</li>
+                <li>The unauthorized supplying or receiving of information about the form or content of an examination.</li>
+                <li>The supplying or receiving of partial or complete answers, or suggestions for answers; or the supplying or receiving of assistance in interpretation of questions on any examination from any source not explicitly authorized. (This includes copying or reading of another student’s work or consultation of notes or other sources during an examination.)</li>
+                <li>The use of generative artificial intelligence (AI) to produce or to improve work, whether visual or textual, except when called for by an assignment or instructor and acknowledged transparently as one tool among others in the creative process. (See also Pratt’s <a href="https://www.pratt.edu/resources/statement-on-artificial-intelligence" target="_blank">Statement on Artificial Intelligence</a>)</li>
             </ol>
-            <p>The Academic Integrity Standing Committee (AISC) is charged with educating faculty, staff, and students about academic integrity practices. Whenever possible, we strive to resolve alleged infractions at the most local level possible, such as between student and professor, or within a department or school. When necessary, members of this committee will form an Academic Integrity Hearing Board to hear cases regarding cheating, plagiarism, and other infractions described below; these infractions can be grounds for citation, sanction, or dismissal. Detailed procedures are explained in the full version of the <a href="https://www.pratt.edu/policies/academic-integrity">Academic Integrity </a><a href="https://www.pratt.edu/policies/academic-integrity">Policy</a>.</p>
+            <p>The Academic Integrity Standing Committee (AISC) is charged with educating faculty, staff, and students about academic integrity practices. Whenever possible, we strive to resolve alleged infractions at the most local level possible, such as between student and professor, or within a department or school. When necessary, members of this committee will form an Academic Integrity Hearing Board to hear cases regarding cheating, plagiarism, and other infractions described below; these infractions can be grounds for citation, sanction, or dismissal. Detailed procedures are explained in the full version of the <a href="https://www.pratt.edu/policies/academic-integrity" target="_blank">Academic Integrity </a><a href="https://www.pratt.edu/policies/academic-integrity" target="_blank">Policy</a>.</p>
             <h3>Late Assignments</h3>
             <p>Assignments are expected to be turned in on the date outlined in the Assessment and Grading section above unless prior arrangements are agreed upon with the instructor. Late assignments without prior arrangements will be docked 5% per day that they are late.</p>
             <h3>Attendance Policy</h3>
             <p>Pratt Institute recognizes that students’ attendance in classes is central to their success. Learning at Pratt relies on students interacting with the course content, other students, and their instructor, and in some cases, interacting with third parties through internship sites, field trips, studio visits, or in-class guests. At the same time, some absences may be unavoidable, especially those due to personal emergencies or illness. While some course content can be made up, many interactions during class, including discussion, group activities, and studio critique, are not replicable, and repeated absences may directly impact a student’s ability to achieve the course learning outcomes and adversely affect other students’ learning.</p>
-            <p>Consistent attendance is essential for the completion of any course or program and is a precondition for passing a course. Attendance alone cannot count as a specific portion of a student’s grade, though class participation may be counted as part of a student’s grade. A student’s final grade may be lowered as a result of absences, at the discretion of the instructor and as specified on their syllabus. Repeated absences may result in a failing grade. For full details, see Pratt’s <a href="https://www.pratt.edu/policies/attendance-policy/">Attendance Policy</a>.</p>
-            <p>Students with extensive absences (three or more for any reason) may be required to drop the course or may receive a failing grade at the discretion of the instructor. For more information on Pratt’s Attendance Policy, please visit <a href="https://bit.ly/prattattendancepolicy">https://bit.ly/prattattendancepolicy</a></p>
+            <p>Consistent attendance is essential for the completion of any course or program and is a precondition for passing a course. Attendance alone cannot count as a specific portion of a student’s grade, though class participation may be counted as part of a student’s grade. A student’s final grade may be lowered as a result of absences, at the discretion of the instructor and as specified on their syllabus. Repeated absences may result in a failing grade. For full details, see Pratt’s <a href="https://www.pratt.edu/policies/attendance-policy/" target="_blank">Attendance Policy</a>.</p>
+            <p>Students with extensive absences (three or more for any reason) may be required to drop the course or may receive a failing grade at the discretion of the instructor. For more information on Pratt’s Attendance Policy, please visit <a href="https://bit.ly/prattattendancepolicy" target="_blank">https://bit.ly/prattattendancepolicy</a></p>
             <h3>Academic Support</h3>
             <p>Multiple academic support resources are available to students across campus:</p>
             <ul>
-            <li>For assistance with time management and/or studio, subject, and software tutoring, contact the Student Success Center at <a href="mailto:success@pratt.edu">success@pratt.edu</a>.</li>
-            <li>For assistance with writing assignments, contact the Writing and Tutorial Center at <a href="mailto:wtc@pratt.edu">wtc@pratt.edu</a>. The <a href="https://library.pratt.edu/">Pratt Libraries</a> can also help with research and citations.</li>
-            <li>Academic advisors are also a great resource; students can find their advisor’s contact information or schedule an appointment through <a href="https://pratt.starfishsolutions.com/starfish-ops/dl/instructor/serviceCatalog.html">Starfish</a>.</li>
+                <li>For assistance with time management and/or studio, subject, and software tutoring, contact the Student Success Center at <a href="mailto:success@pratt.edu" target="_blank">success@pratt.edu</a>.</li>
+                <li>For assistance with writing assignments, contact the Writing and Tutorial Center at <a href="mailto:wtc@pratt.edu" target="_blank">wtc@pratt.edu</a>. The <a href="https://library.pratt.edu/" target="_blank">Pratt Libraries</a> can also help with research and citations.</li>
+                <li>Academic advisors are also a great resource; students can find their advisor’s contact information or schedule an appointment through <a href="https://pratt.starfishsolutions.com/starfish-ops/dl/instructor/serviceCatalog.html" target="_blank">Starfish</a>.</li>
             </ul>
             <h3>Accessibility</h3>
-            <p>The <a href="https://www.pratt.edu/about/offices/student-affairs/learning-access-center/">Learning/Access Center (L/AC)</a> coordinates access for students with disabilities. Students who identify as having any type of disability are entitled and encouraged to enroll with the L/AC in order to determine and implement reasonable accommodations. Contact the Learning/Access Center at <a href="mailto:lac@pratt.edu">lac@pratt.edu</a> or 718.802.3123 for information or to schedule an appointment.</p>
+            <p>The <a href="https://www.pratt.edu/about/offices/student-affairs/learning-access-center/" target="_blank">Learning/Access Center (L/AC)</a> coordinates access for students with disabilities. Students who identify as having any type of disability are entitled and encouraged to enroll with the L/AC in order to determine and implement reasonable accommodations. Contact the Learning/Access Center at <a href="mailto:lac@pratt.edu" target="_blank">lac@pratt.edu</a> or 718.802.3123 for information or to schedule an appointment.</p>
             <h3>Title IX, Nondiscrimination, and Anti-Harassment Policy</h3>
-            <p>Pratt Institute is committed to fostering a safe and welcoming learning environment. The Institute’s <a href="https://www.pratt.edu/administrative-departments/student-affairs/community-standards-and-student-policies/title-ix-nondiscrimination-and-anti-harassment-policy/">Title IX, Nondiscrimination, and Anti-Harassment Policy</a> prohibits unlawful discrimination and harassment, and sexual misconduct including sex discrimination, sex-based harassment, sexual assault, dating/domestic violence, and stalking. The Institute takes prompt and appropriate action to address prohibited conduct, end a hostile environment if one has been created, and prevent the recurrence of a hostile environment. To submit a concern of prohibited conduct, please use the <a href="https://cm.maxient.com/reportingform.php?PrattInstitute&amp;layout_id=6">Title IX and Sexual Misconduct Disclosure Form</a>. Title IX also covers accommodations for pregnancy and related conditions and/or parental status. Should you require a reasonable accommodation because of such status, please contact the <a href="https://www.pratt.edu/administrative-departments/student-affairs/office-of-institutional-equity-title-ix/">Title IX Coordinator</a> for assistance in obtaining accommodations. </p>
-            <p><em>Reporting requirement</em>: The <a href="https://www.pratt.edu/administrative-departments/student-affairs/community-standards-and-student-policies/title-ix-nondiscrimination-and-anti-harassment-policy/">Title IX, Nondiscrimination, and Anti-Harassment Policy</a> does require that I report any incident of discrimination, harassment, or sexual misconduct that you disclose to me to the Institute's <a href="https://www.pratt.edu/administrative-departments/student-affairs/office-of-institutional-equity-title-ix/">Title IX Coordinator.</a> If you do inform me of such conduct I will keep the information private. You are welcome to report an incident directly by contacting the Title IX Coordinator or using the <a href="https://cm.maxient.com/reportingform.php?PrattInstitute&amp;layout_id=6">Title IX and Sexual Misconduct Disclosure Form</a>. You can also speak to someone confidentially by contacting our confidential resources in <a href="https://www.pratt.edu/about/offices/student-affairs/health-services/">Health Services</a> or the <a href="https://www.pratt.edu/about/offices/student-affairs/the-counseling-center/">Counseling Center</a>. For more information, please contact the <a href="https://www.pratt.edu/administrative-departments/student-affairs/office-of-institutional-equity-title-ix/">Office of Institutional Equity and Title IX</a> at titleIX@pratt.edu or 718.687.5171</p>
+            <p>Pratt Institute is committed to fostering a safe and welcoming learning environment. The Institute’s <a href="https://www.pratt.edu/administrative-departments/student-affairs/community-standards-and-student-policies/title-ix-nondiscrimination-and-anti-harassment-policy/" target="_blank">Title IX, Nondiscrimination, and Anti-Harassment Policy</a> prohibits unlawful discrimination and harassment, and sexual misconduct including sex discrimination, sex-based harassment, sexual assault, dating/domestic violence, and stalking. The Institute takes prompt and appropriate action to address prohibited conduct, end a hostile environment if one has been created, and prevent the recurrence of a hostile environment. To submit a concern of prohibited conduct, please use the <a href="https://cm.maxient.com/reportingform.php?PrattInstitute&amp;layout_id=6" target="_blank">Title IX and Sexual Misconduct Disclosure Form</a>. Title IX also covers accommodations for pregnancy and related conditions and/or parental status. Should you require a reasonable accommodation because of such status, please contact the <a href="https://www.pratt.edu/administrative-departments/student-affairs/office-of-institutional-equity-title-ix/" target="_blank">Title IX Coordinator</a> for assistance in obtaining accommodations. </p>
+            <p><em>Reporting requirement</em>: The <a href="https://www.pratt.edu/administrative-departments/student-affairs/community-standards-and-student-policies/title-ix-nondiscrimination-and-anti-harassment-policy/" target="_blank">Title IX, Nondiscrimination, and Anti-Harassment Policy</a> does require that I report any incident of discrimination, harassment, or sexual misconduct that you disclose to me to the Institute's <a href="https://www.pratt.edu/administrative-departments/student-affairs/office-of-institutional-equity-title-ix/" target="_blank">Title IX Coordinator.</a> If you do inform me of such conduct I will keep the information private. You are welcome to report an incident directly by contacting the Title IX Coordinator or using the <a href="https://cm.maxient.com/reportingform.php?PrattInstitute&amp;layout_id=6" target="_blank">Title IX and Sexual Misconduct Disclosure Form</a>. You can also speak to someone confidentially by contacting our confidential resources in <a href="https://www.pratt.edu/about/offices/student-affairs/health-services/" target="_blank">Health Services</a> or the <a href="https://www.pratt.edu/about/offices/student-affairs/the-counseling-center/" target="_blank">Counseling Center</a>. For more information, please contact the <a href="https://www.pratt.edu/administrative-departments/student-affairs/office-of-institutional-equity-title-ix/" target="_blank">Office of Institutional Equity and Title IX</a> at titleIX@pratt.edu or 718.687.5171</p>
             <h3>Wellbeing</h3>
-            <p>Pratt is dedicated to creating a culture where the entire community can flourish and thrive. Taking time to care for yourself and seeking appropriate support is important to achieving your academic and professional goals. Several resources are available through <a href="https://pratt.starfishsolutions.com/starfish-ops/dl/instructor/serviceCatalog.html">Starfish</a>, including our Student Advocate and Care Coordinator, who can also be reached at 718.399.4546 or <a href="mailto:studentadvocate@pratt.edu">studentadvocate@pratt.edu</a>. If you or anyone you know experiences overwhelming academic stress, persistent difficult feelings, or challenging life events, the Counseling Center can be reached 24/7 by calling 718.687.5356. To schedule a consultation, please call or email <a href="mailto:therapy@pratt.edu">therapy@pratt.edu</a></p>
+            <p>Pratt is dedicated to creating a culture where the entire community can flourish and thrive. Taking time to care for yourself and seeking appropriate support is important to achieving your academic and professional goals. Several resources are available through <a href="https://pratt.starfishsolutions.com/starfish-ops/dl/instructor/serviceCatalog.html" target="_blank">Starfish</a>, including our Student Advocate and Care Coordinator, who can also be reached at 718.399.4546 or <a href="mailto:studentadvocate@pratt.edu" target="_blank">studentadvocate@pratt.edu</a>. If you or anyone you know experiences overwhelming academic stress, persistent difficult feelings, or challenging life events, the Counseling Center can be reached 24/7 by calling 718.687.5356. To schedule a consultation, please call or email <a href="mailto:therapy@pratt.edu" target="_blank">therapy@pratt.edu</a></p>
             <h3>Starfish</h3>
-            <p><a href="https://pratt.starfishsolutions.com/starfish-ops/dl/instructor/serviceCatalog.html">Starfish</a> provides students with contact information for advisors, instructors, department chairs, and support services across the campus. Faculty can also use Starfish to inform students of their progress in class and connect them with resources. Students are contacted by support offices whenever a flag or referral is raised. </p>
+            <p><a href="https://pratt.starfishsolutions.com/starfish-ops/dl/instructor/serviceCatalog.html" target="_blank">Starfish</a> provides students with contact information for advisors, instructors, department chairs, and support services across the campus. Faculty can also use Starfish to inform students of their progress in class and connect them with resources. Students are contacted by support offices whenever a flag or referral is raised. </p>
             <h3>Public Safety &amp; Emergency Contacts</h3>
-            <p>The Department of Public Safety provides 24-hour-a-day protection to the campus, including an <a href="https://www.pratt.edu/about/offices/department-of-public-safety/emergency-response-guide/">emergency response guide</a>. Contact Public Safety at <a href="mailto:security@pratt.edu">security@pratt.edu</a> or 718.636.3540. The Pratt Emergency Alert System is used to send urgent messages to registered mobile devices and emails (faculty, staff, and students have the option to opt-out, which must be renewed each year). You can update your emergency contact information in the <a href="https://one.pratt.edu/s/safety-wellness">Safety</a> section of OnePratt.</p>
+            <p>The Department of Public Safety provides 24-hour-a-day protection to the campus, including an <a href="https://www.pratt.edu/about/offices/department-of-public-safety/emergency-response-guide/" target="_blank">emergency response guide</a>. Contact Public Safety at <a href="mailto:security@pratt.edu" target="_blank">security@pratt.edu</a> or 718.636.3540. The Pratt Emergency Alert System is used to send urgent messages to registered mobile devices and emails (faculty, staff, and students have the option to opt-out, which must be renewed each year). You can update your emergency contact information in the <a href="https://one.pratt.edu/s/safety-wellness" target="_blank">Safety</a> section of OnePratt.</p>
         </main>
     </div>
 
